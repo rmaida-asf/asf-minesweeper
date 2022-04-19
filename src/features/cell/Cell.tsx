@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Paper, Box, Typography } from "@mui/material";
+import { Paper, Typography } from "@mui/material";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import { isGameOver, sendMessage } from "../game/WebSocketState";
 
